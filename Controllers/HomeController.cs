@@ -17,7 +17,7 @@ namespace CallMagosWebApi.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "You application description page.";
+            ViewBag.Message = "You application page.";
 
             return View();
         }
