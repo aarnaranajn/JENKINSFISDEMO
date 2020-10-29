@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
+
 namespace CallMagosWebApi.Controllers
 {
     public class HomeController : Controller
@@ -15,7 +17,7 @@ namespace CallMagosWebApi.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your test application description page.";
 
             return View();
         }
