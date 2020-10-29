@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace CallMagosWebApi.Controllers
 {
@@ -11,6 +7,7 @@ namespace CallMagosWebApi.Controllers
         // GET: CallMagos
         public ActionResult Index()
         {
+
             return View();
         }
     }
