@@ -7,7 +7,7 @@ namespace CallMagosWebApi.Controllers
         // GET: CallMagos
         public ActionResult Index()
         {
-
+            //test
             return View();
         }
     }
